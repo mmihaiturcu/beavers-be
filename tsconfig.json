@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"sourceMap": true,
+		"module": "ESNext",
+		"esModuleInterop": true,
+		"moduleResolution": "node",
+		"pretty": true,
+		"target": "ESNext",
+		"outDir": "dist",
+		"baseUrl": ".",
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"paths": {
+			"@/*": ["src/*"]
+		}
+	},
+	"include": ["src/**/*.ts"],
+	"exclude": ["node_modules"]
+}
